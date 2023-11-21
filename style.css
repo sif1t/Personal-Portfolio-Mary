@@ -17,6 +17,9 @@
     padding: 18px 35px;
 
 }
+section{
+    margin-top: 130px;
+}
 
 .header {
     background: #FFF8F3;
@@ -96,7 +99,7 @@ main {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 
@@ -124,9 +127,6 @@ main {
 }
 
 /* what i do styles */
-.what-i-do {
-    margin-top: 130px;
-}
 
 .skills-container {
     display: flex;
@@ -149,5 +149,25 @@ main {
 }
 
 .skill-description {
+    color: #757575;
+}
+
+/* resume style */
+
+.resume-content{
+    display: flex;
+}
+
+.resume .title{
+     font-weight:700;
+     font-size: 25px;
+     color: #474747;
+}
+.resume .sub-title{
+    font-weight: 600;
+    color: #757575;
+    font-size: 20px;
+}
+.resume .description{
     color: #757575;
 }
