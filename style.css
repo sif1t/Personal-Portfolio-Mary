@@ -206,3 +206,44 @@ main {
 input{
     height: 64px; 
 }
+
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 0 5px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    
+    nav, .banner, .skills-container, .resume-content, .about-info-container, .contact {
+        flex-direction:column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    nav ul{
+        margin: 0 -90px;
+    }
+    .about{
+        padding: 10px 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea {
+       padding: 0 0 0 10px;
+    }
+}
+@media screen and (min-width:577px)  and (max-width: 992px){
+     .skills-container, .resume-content, .about-info-container, .contact {
+        flex-direction:column;
+        gap: 20px;
+        padding: 10px 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea {
+        padding: 0 0 0 10px;
+     }
+     .about{
+        padding: 10px 20px;
+    }
+}
